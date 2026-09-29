@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Una breve presentazione personale.">
+	<title>Presentazione</title>
+</head>
+<body>
+	<header>
+		<h1>Presentazione Personale</h1>
+         <div style="text-align: center; margin-top: 20px;">
+            <img src="/foto.jpeg" alt="Foto di Simone Iocolano" style="width: 200px; height: auto; border-radius: 50%;">
+        </div>
+    </header>
+
+		<p>Ciao! Mi chiamo Simone Iocolano e sono un ragazzo di 27 anni. Attualmente sto frequentando il corso in Full Stack Web Development presso Epicode, dove sto acquisendo competenze avanzate nello sviluppo web e nella programmazione.</p>
+        <section>
+			<p>Ho 27 anni e sono un appassionato di tecnologia e videogiochi</p>
+            <p>Mi piace andare al cinema con la mia ragazza nel weekend ed allenarmi in palestra tre volte alla settimana.</p>
+		</section>
+
+       
+
+		<h2>Su di me</h2>
+        <ul>
+            <li>Appassionato di tecnologia</li>
+            <li>Amante dei videogiochi</li>
+            <li>Appassionato di cinema</li>
+            <li>Praticante di sport</li>
+        </ul>
+	</main>
+<div>
+	<footer id="contatti">
+		<h3>Contatti</h3>
+		<p><a href="mailto:email@example.com">simone.iocolano@gmail.com</a></p>
+        <p><a href="tel:+393802038010">+39 380 203 8010</a></p>
+        <p>Seguimi sui social:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/simo_iocoloco/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/simone.g.iocolano">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/simoneiocolano/">LinkedIn</a></li>
+	</footer>
+</div>
+</body>
+</html>
+
