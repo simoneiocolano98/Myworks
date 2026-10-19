@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(62, 62, 62, 0.1);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    
+}
+
+
+.profile img:hover {
+    cursor: pointer;
+}
+
+.nav-icons {
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-icons:hover {
+    cursor: pointer;
+}
+
+
+
+.membership {
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #404041;
+    width: auto;
+    background-color: #fafbfb;
+    border: 1px solid #404041;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.membership:hover {
+    background-color: #4d98e3;
+    color: #fafbfb;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.main-content {
+    display: flex;
+    margin-left: 5%;
+}
+
+.article-nav {
+    display: flex;
+    font-size: 10px;
+    margin: 20px;;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(4, 0, 11);
+    color: gray;
+}
+
+.article-nav p {
+    transition: 0.5s ease;
+}
+.article-nav p:hover  {
+
+    cursor:pointer ;
+    color: black;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 30px
+    
+
+
+}
+.article-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+   
+   
+    
+}
+.article-author{
+    font-size: 13px;
+    margin-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+
+}
+
+.article-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+    
+    
+}
+
+
+.article-summary {
+    font-size: 17px;
+    margin-bottom: 15px;
+    
+}
+
+.article-image {
+
+    width: 140px;
+    height: 110px;
+    object-fit: cover;
+    
+
+}
+
+.article-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.meta-data {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 8px;
+}
+
+.article-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.meta-data :nth-child(2) {
+    padding: 4px;
+    
+
+}
+
+
+
+.left-section {
+
+    width: 65%;
+    height: auto;
+    border-right: 1px solid grey;
+    box-shadow: grey;
+
+}
+
+
+.sidebar {
+ 
+    width: 35%;
+    height: auto;
+    max-width: 80%;
+    margin-right: 5%;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.social-icons {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-only {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+
+.twitter-button {
+   height: 40px;
+    font-size: 12px;
+    padding: 6px;
+    color: #404041;
+    width: auto;
+    background-color: #fafbfb;
+    border: 1px solid #404041;
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.twitter-button:hover {
+    cursor: pointer;
+    background-color: #4d98e3;
+}
+
+
+.maybe-later {
+    font-size: 10px;
+    color: gray;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.maybe-later:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.recommended-topics {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+    
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+   
+    
+}
+.topics button{
+    height: 40px;
+    font-size: 12px;
+    padding: 6px;
+    color: #404041;
+    width: 70px;
+    background-color: #fafbfb;
+    border: 1px solid #404041;
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.topics button:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+
+.who-to-follow {
+    margin: 20px;
+}
+
+.who-to-follow p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.follow-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.follow-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.follow-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.follow-text p:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.employment {
+    font-size: 13px;
+    color: gray;
+    line-height: 1.4;
+}
+
+.follow-button button {
+    padding: 8px 15px;
+    background-color: white;
+    border: 1px solid #555;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.follow-button button:hover {
+    background-color: #f2f2f2;
+}
+
+.recently-saved{
+    margin: 20px;
+}
+
+.recently-saved p{
+    margin-bottom: 10px;
+
+}
+
+.links{
+   margin-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+}
+.links a{
+    margin-top: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: grey;
+}
+
